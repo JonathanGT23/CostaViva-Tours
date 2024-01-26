@@ -1,0 +1,28 @@
+:root{
+   --padding-secciones: 60px 0;
+   --padding-lados-mobile: 0 10px;
+   --color-primero: #ffffff;
+   --color-segundo: #2E7D51;
+   --color-tercero: #FFEB3B;
+   --color-cuarto: #26C6DA;
+   --letra-titulo: 'Archivo Black', sans-serif;
+   --letra-general: 'Lato', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: var(--color-primero);
+    font-family: var(--letra-general);
+    min-height: 100vh;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    padding: var(--padding-secciones);
+    margin: auto;
+    overflow: hidden;
+}

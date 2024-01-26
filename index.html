@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre aventuras inolvidables en Costa Rica con CostaViva Tours. Exploramos selvas tropicales, playas paradisíacas y más.">
+    <meta name="keywords" content="costa rica, viajes, aventuras, selva tropical">
+    <meta name="author" content="Jonathan González">
+
+    <title>CostaViva Tours - Explora la Belleza de Costa Rica</title>
+    
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/nosotros.css">
+    <link rel="stylesheet" href="assets/css/planes.css">
+    <link rel="stylesheet" href="assets/css/fotos.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-header">
+            <div class="nav-header-container container">
+                 <div class="logo-header"><img loading="lazy" src="assets/img/logo.png" alt="Logo Bandera de Costa Rica" title="Bandera de Costa Rica"></div>
+                <ul class="nav-header-ul nav_ul">
+                    <li class="nav-header-li"><a href="#inicio" class="nav-header-link border-azul">Inicio</a></li>
+                    <li class="nav-header-li"><a href="#nosotros" class="nav-header-link border-blanco">Nosotros</a></li>
+                    <li class="nav-header-li"><a href="#planes" class="nav-header-link border-rojo">Planes</a></li>
+                    <li class="nav-header-li"><a href="#fotos" class="nav-header-link border-blanco">Fotos</a></li>
+                    <li class="nav-header-li"><a href="#contacto" class="nav-header-link border-azul">Contacto</a></li>
+                </ul>
+                <a href="#/" onclick=mostrarMenu() class="menu-abrir" ><i class="fa-solid fa-bars"></i></a> 
+                <ul class="navbar-lado">
+                    <li class="nav-header-li" onclick=cerrarMenu()><a href="#/" class="menu-cerrar nav-header-link"><i class="fa-solid fa-xmark"></i></a></li>
+                    <li class="nav-header-li"><a href="#inicio" class="nav-header-link border-azul">Inicio</a></li>
+                    <li class="nav-header-li"><a href="#nosotros" class="nav-header-link border-blanco">Nosotros</a></li>
+                    <li class="nav-header-li"><a href="#planes" class="nav-header-link border-rojo">Planes</a></li>
+                    <li class="nav-header-li"><a href="#fotos" class="nav-header-link border-blanco">Fotos</a></li>
+                    <li class="nav-header-li"><a href="#contacto" class="nav-header-link border-azul">Contacto</a></li>
+                </ul>
+                    
+            </div>
+        </nav>
+        <section class="hero" id="inicio">
+            <div class="hero-texto-container container">
+                <h1 class="hero-titulo">CostaViva Tours</h1>
+                <p class="hero-descripcion">Bienvenido a CostaViva Tours, tu ventana a las maravillas de Costa Rica. En CostaViva, nos enorgullece ofrecer experiencias de viaje excepcionales que capturan la esencia vibrante y la riqueza natural de este paraíso tropical.</p>
+                <a class="hero-boton" href="#contactos">Más Información</a>
+            </div>
+        </section>
+        
+    </header>
+    <main class="main">
+        <section class="nosotros" id="nosotros">
+            <div class="informacion-container container">
+                <div class="informacion-nosotros">
+                    <h2>Sobre Nosotros</h2>
+                    <p>En CostaViva Tours, nos apasiona ofrecer experiencias de viaje inolvidables que te sumerjan en la belleza y diversidad de Costa Rica. Fundada en 2012, nuestra empresa se ha dedicado a proporcionar servicios de viaje excepcionales, diseñados para aquellos que buscan aventuras auténticas y momentos inolvidables en este paraíso tropical.</p>
+    
+                    <h3>
+                        Nuestra Misión
+                    </h3>
+                    <p>
+                        En el corazón de nuestra misión está el deseo de brindarte no solo un viaje, sino una aventura que te sumerja en la riqueza cultural, la biodiversidad impresionante y la hospitalidad cálida que caracteriza a Costa Rica. Nos esforzamos por ir más allá de las expectativas, creando momentos inolvidables y conexiones auténticas entre nuestros viajeros y este rincón del mundo.
+                    </p>
+                </div>
+                <img loading="lazy" class="imagen-nosotros" src="assets/img/nosotros.jpg" alt="Grupo de personas observando el mar y el horizonte" title="Grupo de personas observando el mar y el horizonte">
+            </div>
+        </section>
+        <section class="planes" id="planes">
+            <div class="planes-container container">
+                <h2>Ofrecemos diferentes planes para viajar</h2>
+                <ul class="planes-ul">
+                    <li class="planes-li">
+                        <div class="planes-informacion">
+                            <h3>Aventura en la Selva Tropical</h3>
+                            <p>Explora la exuberante selva tropical de Costa Rica con actividades como senderismo, canopy, observación de aves y visitas a reservas naturales.</p>
+                        </div>
+                        <div class="planes-boton">
+                            <a href="#">Mas Información</a>
+                        </div>
+                    </li>
+                    <li class="planes-li">
+                        <div class="planes-informacion">
+                            <h3>Playas Paradisíacas</h3>
+                            <p>Sumérgete en las cálidas aguas del Pacífico y el Caribe con un itinerario que incluye días de relax en las playas más hermosas de Costa Rica, actividades acuáticas y puestas de sol inolvidables.</p>
+                        </div>
+                        <div class="planes-boton">
+                            <a href="#">Mas Información</a>
+                        </div>
+                    </li>
+                    <li class="planes-li">
+                        <div class="planes-informacion">
+                            <h3>Descubre los Volcanes y Aguas Termales</h3>
+                            <p>Visita los majestuosos volcanes de Costa Rica, explora parques nacionales y relájate en aguas termales naturales.</p>
+                        </div>
+                        <div class="planes-boton">
+                            <a href="#">Mas Información</a>
+                        </div>
+                    </li>
+                    <li class="planes-li">
+                        <div class="planes-informacion">
+                            <h3>Safari Fotográfico</h3>
+                            <p>Para amantes de la fotografía, organiza un itinerario centrado en capturar la belleza natural y la fauna única de Costa Rica.</p>
+                        </div>
+                        <div class="planes-boton">
+                            <a href="#">Mas Información</a>
+                        </div>
+                    </li>
+                    <li class="planes-li">
+                        <div class="planes-informacion">
+                            <h3>Rutas Culturales y Históricas</h3>
+                            <p>Descubre la rica historia y cultura de Costa Rica con visitas a sitios históricos, pueblos encantadores, mercados locales y participación en festivales culturales.</p>
+                        </div>
+                        <div class="planes-boton">
+                            <a href="#">Mas Información</a>
+                        </div>
+                    </li>
+                    <li class="planes-li">
+                        <div class="planes-informacion">
+                            <h3>Viaje Gastronómico Tico</h3>
+                            <p>Deléitate con la diversidad culinaria de Costa Rica. Explora mercados locales, participa en clases de cocina y disfruta de comidas tradicionales en lugares auténticos.</p>
+                        </div>
+                        <div class="planes-boton ">
+                            <a href="#">Mas Información</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="fotos" id="fotos">
+            <div class="fotos-container container">
+                <h2>
+                    Fotografias de Lugares de Costa Rica
+                </h2>
+                <div class="galeria-row">
+                    
+                  
+                        <div class="galeria-column">
+                           <img loading="lazy" src="assets/img/galeria/galeria1.jpg" alt="Atardecer en Costa Rica" title="Atardecer en Costa Rica">
+                           <img loading="lazy" src="assets/img/galeria/galeria2.jpg" alt="Volcan Arenal Costa Rica" title="Volcan Arenal Costa Rica">
+                        </div>
+    
+                        <div class="galeria-column">
+                           <img loading="lazy" src="assets/img/galeria/galeria4.jpg" alt="Puntarenas Costa Rica" title="Puntarenas Costa Rica">
+                           <img loading="lazy" src="assets/img/galeria/galeria5.jpg" alt="Las Ruinas de Cartago de Costa Rica" title="Las Ruinas de Cartago de Costa Rica">
+                          
+                        </div>
+
+                        <div class="galeria-column">
+                            <img loading="lazy" src="assets/img/galeria/galeria9.jpg" alt="Playa de Costa Rica" title="Playa de Costa Rica">>
+                           <img loading="lazy" src="assets/img/galeria/galeria7.jpg" alt="La catarata del Angel Costa Rica" title="La catarata del Angel Costa Rica">
+                           
+                           
+                        </div>
+                        <div class="galeria-column">
+                            <img loading="lazy" src="assets/img/galeria/galeria8.jpg" alt="Playa en Gunacaste Costa Rica" title="Playa en Gunacaste Costa Rica">
+                            <img loading="lazy" src="assets/img/galeria/galeria6.jpg" alt="Playa en Puntarenas Costa Rica" title="Playa en Puntarenas Costa Rica">
+                         </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacto" id="contacto">
+            <div class="contacto-container container">
+                
+                    <form>
+                        <h2>Contáctanos</h2>
+
+                        <label for="name">
+                            Nombre
+                            <input  type="text" name="name" id="name">
+                        </label>
+
+                        <label for="email">
+                            E-mail
+                            <input type="email" name="email" id="email">
+                        </label>
+
+                        <label for="asunto">
+                            Asunto
+                            <input type="text" name="asunto" id="asunto">
+                        </label>
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje"></textarea>
+                       
+                        <input type="submit" value="Enviar" name="submit" id="submit">
+                    </form>
+                
+                <img loading="lazy" src="assets/img/telefono.jpg" alt="Tefono en la Autopista" title="Tefono en la Autopista">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-informacion">
+                <h3>Jonathan González Tenorio</h3>
+                <span>+506 8329-8389</span>
+                <span>jona.gonzalez.t@gmail.com</span>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+<script src="assets/js/menu-navbar.js"></script>
+</html>
